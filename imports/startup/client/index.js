@@ -4,6 +4,8 @@ import { render } from 'react-dom'
 
 import App from '../../ui/pages/App'
 
+import 'antd/dist/antd.css'
+
 Meteor.startup(() => {
   render (
     <App />,
